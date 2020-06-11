@@ -46,7 +46,9 @@ Because why not. Faster, harder, klipper!
 | J25 | USB (to STM32) |
 
 TPH1R405PL - very high current, around 200A (in THEORY!) - check the specs of the screw terminals instead, they'll catch fire (24A max).
+
 AON7524 - high current, around 20A - still borderline depending on the screw terminals.
+
 ECP5 - directly connected to the FPGA (with series resistor, 220R), 4/8/12/16mA depending on bitstream, use with care.
 
 ### Jumpers
