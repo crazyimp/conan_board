@@ -89,7 +89,18 @@ ECP5 - directly connected to the FPGA (with series resistor, 220R), 4/8/12/16mA 
 | D14 | TBD |
 
 ### Endstops
-- difference between pullups, clamping with diode
+| Name | Function |
+| ---- | -------- |
+| J26 | Endstop 1 |
+| J27 | Endstop 2 |
+| J28 | Endstop 3 |
+| J29 | Endstop 4 |
+| J30 | Endstop 5 |
+| J31 | Endstop 6 |
+| J32 | Endstop 7 |
+| J33 | Endstop 8 |
+
+TODO - difference between pullups, clamping with diode
 
 ### Thermistors
 | Name | Function |
