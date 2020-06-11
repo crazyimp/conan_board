@@ -44,6 +44,7 @@ Because why not. Faster, harder, klipper!
 | J23 | UART1 (1 GND, 2 RX, 3 TX)|
 | J24 | UART2/SWO (1 GND, 2 RX, 3 TX/SWCLK, 4 SWDIO) |
 | J25 | USB (to STM32) |
+
 TPH1R405PL - very high current, around 200A (in THEORY!) - check the specs of the screw terminals instead, they'll catch fire (24A max).
 AON7524 - high current, around 20A - still borderline depending on the screw terminals.
 ECP5 - directly connected to the FPGA (with series resistor, 220R), 4/8/12/16mA depending on bitstream, use with care.
@@ -64,6 +65,7 @@ ECP5 - directly connected to the FPGA (with series resistor, 220R), 4/8/12/16mA 
 | JP14 | FPGA boot configuration |
 | JP15 | FPGA boot configuration |
 | J22 | STM32 bootloader enable if closed |
+
 * = If you want to bridge Vaux and VM1 - connect the power to Vaux instead (wider traces and you don't end up putting all the power through JP5 - which can handle 2-3A). Ideally, connect both, VM1 and Vaux directly to the PSU.
 
 
