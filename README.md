@@ -33,7 +33,7 @@ Because why not. Faster, harder, klipper!
 | J16 | Stepper 3 |
 | J21 | Stepper 4 |
 | J20 | Stepper 5 |
-| J19 | Steppel 6 |
+| J19 | Stepper 6 |
 | J45 | Chain in |
 | J46 | Chain out |
 | J44 | ESP8266 |
