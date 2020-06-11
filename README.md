@@ -27,8 +27,6 @@ Because why not. Faster, harder, klipper!
 | J15 | PWM8 (ECP5) |
 | J4 | PWM9 (ECP5) |
 | J7 | PWM10 (ECP5) |
-| J10 | TBD |
-| J7 | TBD |
 | J34 | Watchdog |
 | J18 | Stepper 1 |
 | J17 | Stepper 2 |
